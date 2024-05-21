@@ -1,6 +1,6 @@
 # Establishing a Human Fetal Retina Atlas to identify neurotrophic factors critical for supporting donor and host neurons in the adult mouse eye<br />
 This repository has the information on the computational analysis described in the paper on developing human retinal atlas.
-![GA1_Github](![PODS_abstract](https://github.com/mcrewcow/fetal_retina_PODs_Soucy_Kriukov/assets/77118598/bca539aa-2314-4a4e-8358-4f6d862394e7))
+![PODS_abstract](https://github.com/mcrewcow/fetal_retina_PODs_Soucy_Kriukov/assets/77118598/bca539aa-2314-4a4e-8358-4f6d862394e7)
 
 
 
