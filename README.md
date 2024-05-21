@@ -5,22 +5,22 @@ This repository has the information on the computational analysis described in t
 
 
 The analysis is separated into the following parts:
-1. Igfbpl1 WT/KO - glaucoma PBS/Igfbpl1 Seurat R processing - basic Seurat pipeline, availabe upon request (gahu@mit.edu)
-2. ForceAtlas2 + scanpy processing (Jupyter Notebook)
-3. RNA Velocity - bash preprocessing to .loom - file: [fastq_to_loom_processing.sh](https://github.com/mcrewcow/Pan_et_al_DFChen_IGFPL1_paper/blob/main/fastq_to_loom_processing.sh) <br />
-                - scvelo utilization (Jupyter Notebook)
-  Files: [Glaucoma datasets analysis](https://github.com/mcrewcow/Pan_et_al_DFChen_IGFPL1_paper/blob/main/glaucoma.ipynb), [IGFPL1 WT/KO datasets analysis](https://github.com/mcrewcow/Pan_et_al_DFChen_IGFPL1_paper/blob/main/IGFBPL1.ipynb) <br />
-4. Python to R data transformation
-Files: [Saving the object in Python](https://github.com/mcrewcow/Pan_et_al_DFChen_IGFPL1_paper/blob/main/h5ad_to_h5seurat_p1.py), [Building the Seurat object in R](https://github.com/mcrewcow/Pan_et_al_DFChen_IGFPL1_paper/blob/main/h5ad_to_h5seurat_p2.R)
+1. Independent data processing
+2. Data integration
+3. Reference atlas preparation
+4. Cell-cell interactions analyses
+5. pySCENIC regulons and motifs analysis
+6. Miscellaneous visualization
                 
-The datasets are uploaded on GEO: <br />
-[WT/IGFBPL1](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE176204) <br />
-
-
+The data used is public and available on GEO: <br />
+[Reh-1](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE142526) <br />
+[Clark-1](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE116106) <br />
+[Clark-2](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE122970) <br />
+[Clark-3](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE138002) <br />
 The processed datasets are available upon request. <br />
 
 If you have any questions regarding the data, analysis or further improvements, here are the contacts: <br />
-dongfeng_chen@meei.harvard.edu - PI\
-gahu@mit.edu - Bioinformatics, part 1 + data availability\
-ekriukov@meei.harvard.edu - Bioinformatics, part 2-4 + data availability<br />
+petr_baranov@meei.harvard.edu - PI\
+kriukov.e@northeastern.edu - Bioinformatics + data availability\
+jonathan_soucy@meei.harvard.edu - Wet lab + data availability<br />
 <br />
