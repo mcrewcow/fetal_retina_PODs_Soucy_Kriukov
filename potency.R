@@ -32,3 +32,16 @@ plots[["CytoTRACE2_UMAP"]][[1]][["data"]]["UMAP_1"] <- emb_1
 plots[["CytoTRACE2_UMAP"]][[1]][["data"]]["UMAP_2"]<- emb_2
 
 plots$CytoTRACE2_UMAP
+
+cytotrace2_result_fullmodel <- cytotrace2(fetal,   
+                                species = "human",
+                                is_seurat = TRUE,
+                                slot_type = "counts",
+                                full_model = TRUE,
+                                batch_size = 10000,
+                                smooth_batch_size = 1000,
+                                parallelize_models = TRUE,
+                                parallelize_smoothing = TRUE,
+                                ncores = NULL,
+                                max_pcs = 200,
+                                seed = 14)  
